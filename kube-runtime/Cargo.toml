@@ -20,7 +20,7 @@ derivative = "2.1.1"
 serde = "1.0.115"
 smallvec = "1.4.2"
 pin-project = "0.4.23"
-tokio = { version = "0.2.21", features = ["time"] }
+tokio = { version = "0.3.1", features = ["time"] }
 snafu = { version = "0.6.8", features = ["futures"] }
 dashmap = "3.11.10"
 
@@ -37,5 +37,5 @@ features = ["v1_18"]
 [dev-dependencies]
 kube-derive = { path = "../kube-derive", version = "^0.43.0"}
 serde_json = "1.0.57"
-tokio = { version = "0.2.22", features = ["full", "test-util"] }
+tokio = { version = "0.3.1", features = ["full", "test-util"] }
 rand = "0.7.3"
